@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Calculator App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-gray-100 font-['Open_Sans']">
+    <!-- Hero Section -->
+    <div class="relative h-screen">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+        </div>
+        
+        <div class="relative z-10 h-full flex flex-col items-center justify-center px-4">
+            <h1 class="text-5xl md:text-6xl font-bold text-white mb-6 text-center">
+                Salary Calculator
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-200 mb-8 text-center max-w-2xl">
+                Calculate employee salaries easily based on working hours. Simple, accurate, and efficient.
+            </p>
+            <a href="calculator.html" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-300 flex items-center">
+                <i class="fas fa-calculator mr-2"></i>
+                Start Calculating
+            </a>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="bg-white py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Key Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <i class="fas fa-clock text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Time-Based Calculation</h3>
+                    <p class="text-gray-600">Calculate salary based on working hours or time range</p>
+                </div>
+                <div class="text-center p-6">
+                    <i class="fas fa-shield-alt text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Accurate Results</h3>
+                    <p class="text-gray-600">Precise calculations with detailed breakdown</p>
+                </div>
+                <div class="text-center p-6">
+                    <i class="fas fa-mobile-alt text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Mobile Friendly</h3>
+                    <p class="text-gray-600">Access from any device, anywhere</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Salary Calculator App. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
